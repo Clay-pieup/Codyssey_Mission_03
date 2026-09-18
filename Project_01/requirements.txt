@@ -1,0 +1,11 @@
+# 이 프로젝트가 쓰는 파이썬 라이브러리 목록.
+# 설치 명령: pip install -r requirements.txt
+# 버전을 고정하는 이유: 몇 달 뒤 다른 사람이 설치해도 같은 결과가 나와야 하기 때문(재현성).
+# 과제 조건이 "Python 3.10 이상"이라, 3.10에서 설치되는 가장 최신 버전으로 맞췄다.
+# (pandas 3.x, matplotlib 3.11은 Python 3.11 이상에서만 설치되어 제외)
+
+requests==2.34.2        # 네이버 API에 데이터를 요청(인터넷 통신)
+python-dotenv==1.2.3    # .env 파일에 적어 둔 API 키를 코드로 불러옴
+pandas==2.3.3           # 표 형태 데이터 정리·계산(이동평균, 월별 집계 등)
+matplotlib==3.10.9      # 그래프를 그려 png로 저장
+ipykernel==7.3.0        # VS Code에서 노트북(.ipynb)을 실행하게 해 주는 연결 부품
