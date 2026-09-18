@@ -1,0 +1,23 @@
+# 파이썬이 실행 속도를 높이려고 자동으로 만드는 캐시 (내가 쓴 코드가 아님)
+__pycache__/
+*.pyc
+
+# 노트북 편집기가 자동 저장용으로 만드는 임시 폴더
+.ipynb_checkpoints/
+
+# 가상환경 폴더 (내 컴퓨터에만 필요한 것)
+.venv/
+venv/
+
+# 편집기 개인 설정
+.vscode/
+.cursor/
+
+# 윈도우가 폴더마다 자동으로 만드는 파일
+Thumbs.db
+desktop.ini
+
+# API 키가 담긴 파일 — Public 저장소라 절대 올라가면 안 된다
+.env
+*.env
+!.env.example
